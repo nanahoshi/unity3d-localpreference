@@ -11,11 +11,11 @@ Assets\LocalPreference.csをUnityに投げ込む。
 LocalPreferenceを修正
 
 ###コード###
-public class LocalPreference{
-	private const string filePath = "save/"; // 書き出し場所
-	private const string fileName = "save.dat"; // 書き出しファイル名
-	private const string Key = "12345"; // 暗号化の鍵
-	private const string IV = "67890131"; // 暗号化のベクトル
+	public class LocalPreference{
+		private const string filePath = "save/"; // 書き出し場所
+		private const string fileName = "save.dat"; // 書き出しファイル名
+		private const string Key = "12345"; // 暗号化の鍵
+		private const string IV = "67890131"; // 暗号化のベクトル
 
 
 ###コード###
